@@ -12,7 +12,7 @@ server.use(bodyParser.json() );
 /* -------- ROUTES -------- */
 server.use(express.static(__dirname + '/main'));
 server.use(function(req, res) {
-    res.sendfile(__dirname + '/main/index.html');
+    res.sendFile(__dirname + '/main/index.html');
 });
 
 server.listen(process.env.PORT || 8080, function () {
