@@ -3,7 +3,7 @@ var express = require('express');
 var server = express();
 
 /* -------- SERVE FILES -------- */
-server.use(express.static(__dirname + '/'));
+server.use(express.static(__dirname + '/main/'));
 server.use(function(sreq, res) {
     res.sendFile(__dirname + '/main/index.html');
 });
