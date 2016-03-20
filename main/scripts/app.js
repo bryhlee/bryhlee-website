@@ -5,7 +5,7 @@ app.config(['$routeProvider', '$locationProvider',
   function($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/home.html'
+        redirectTo: '/about'
       })
       .when('/about', {
         templateUrl: 'views/home.html'
