@@ -91,6 +91,15 @@ p {
   padding-bottom: 10px;
 }
 
+.main-content-header {
+  margin-bottom: 15px;
+}
+
+.main-content-module {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .sticky {
     position: -webkit-sticky;
     position: sticky;
