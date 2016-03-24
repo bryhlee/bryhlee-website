@@ -126,11 +126,13 @@ p {
 }
 
 #dialog-content ul {
-  padding-left: 30px;
+  padding-left: 20px;
+  list-style-type: none;
+  margin: 0px;
 }
 
 #dialog-content a {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #dialog-content .listheader {
@@ -139,4 +141,16 @@ p {
 
 #dialog-content a:hover {
   text-decoration: underline;
+}
+
+/* Color schemes */
+.navbar {
+  background-color: #F2F2F2;
+}
+#dialog {
+  /*border: 2px solid #FFF;*/
+  background-color: #F8F8F8;
+}
+.fa {
+  color: #44749D;
 }
