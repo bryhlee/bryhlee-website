@@ -10,6 +10,9 @@ app.config(['$routeProvider', '$locationProvider',
       .when('/about', {
         templateUrl: 'views/home.html'
       })
+      .when('/projects', {
+        templateUrl: 'views/projects.html'
+      })
     $locationProvider.html5Mode(true);
   }]
 );

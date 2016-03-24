@@ -100,6 +100,10 @@ p {
   margin-bottom: 10px;
 }
 
+.main-content-module > p {
+  margin-bottom: 10px;
+}
+
 .sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -123,6 +127,10 @@ p {
 
 #dialog-content a {
   font-size: 14px;
+}
+
+#dialog-content .listheader {
+  margin-bottom: 0px;
 }
 
 #dialog-content a:hover {
