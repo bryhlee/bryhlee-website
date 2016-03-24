@@ -63,13 +63,17 @@ p {
 }
 
 .navbar {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   background-color: #f2f2f2;
 }
 
-.active {
+.navbar li a {
+  line-height: 28px;
+}
 
+.navbar-brand {
+  font-weight: 700;
 }
 
 #main-content {
@@ -105,9 +109,9 @@ p {
 }
 
 .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
 }
 
 #dialog {
