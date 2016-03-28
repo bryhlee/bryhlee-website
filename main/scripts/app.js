@@ -34,6 +34,4 @@ app.controller('dialogController', function($scope) {
 	        window.location.hash = target;
 	    });
 	});
-    
 });
-

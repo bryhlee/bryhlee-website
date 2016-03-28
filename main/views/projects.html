@@ -8,7 +8,7 @@
   </div>
 </div>
 <!-- Main Header -->
-<nav id="sticky" class="navbar navbar-light navbar-full bg-faded">
+<nav class="navbar navbar-light navbar-full bg-faded">
   <div class="container">
     <a class="navbar-brand" href="#">Bryson Lee</a>
     <button class="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse" data-target="#collnavbar">
@@ -32,53 +32,71 @@
 </nav>
 
 <!-- Main content -->
-<div id="main-content" class="container">
+<div class="main-content container">
   <div class="row">
     <div class="col-xs-12">
-      <h1>> Projects</h1>
+      <h1 class="page-header">> Projects</h1>
     </div>
   </div>
   <div class="row">
     <div class="col-sm-12 col-md-9 col-lg-10">
       <div class="row main-content-section">
+        <div class="col-xs-12">
+          <h4>Overview</h4>
+        </div>
+      </div>
+      <div class="row main-content-section">
+        <div class="col-xs-12">
+          <h4>Tools</h4>
+        </div>
+      </div>
+      <div class="row main-content-section">
+        <div class="col-xs-12">
+          <h4>Applications</h4>
+        </div>
       </div>
     </div>
     <div id="dialog" class="sticky col-md-3 col-lg-2 hidden-sm-down" ng-controller="dialogController">
-      <div id="dialog-content">
-        <p class="listheader">Projects</p>
-        <ul>
-          <li>
-            <a class="nav-link" href="#overview">Overview</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#tools">Tools</a>
-          </li>
-          <ul>
-            <li>
-              <a class="nav-link" href="#">Hoana Medical</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Department of Health Website</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Environments</a>
-            </li>
-          </ul>
-          <li>
-            <a class="nav-link" href="#websites">Web/Mobile Apps</a>
-          </li>
-          <ul>
-            <li>
-              <a class="nav-link" href="#">Languages</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Tools</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Environments</a>
-            </li>
-          </ul>
-        </ul>
+      <div class="row">
+        <div id="dialog-header" class="col-xs-12">
+          <p>Projects</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="dialog-content">
+            <ul>
+              <li>
+                <a class="nav-link" href="#overview"><i class="fa fa-angle-right"></i>Overview</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#tools"><i class="fa fa-angle-right"></i>Tools</a>
+              </li>
+              <ul>
+                <li>
+                  <a class="nav-link" href="#">.data Checksum Analaytics Tool</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">Ticket Support Manager</a>
+                </li>
+              </ul>
+              <li>
+                <a class="nav-link" href="#applications"><i class="fa fa-angle-right"></i>Applications</a>
+              </li>
+              <ul>
+                <li>
+                  <a class="nav-link" href="#">Languages</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">Tools</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">Environments</a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
