@@ -6,12 +6,16 @@ a, .footer-image {
   transition:.1s;
 }
 
+.container {
+  background-color: #FFF;
+}
+
 a:hover {
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bitter', serif;
   font-weight: 700;
 }
 
@@ -21,6 +25,11 @@ p {
 
 .fa {
   color: #FF7F3B;
+  margin-right: 5px;
+}
+
+h1 .fa {
+  margin-right: 8px;
 }
 
 .h2-subtext {
@@ -88,7 +97,7 @@ p {
 
 .navbar-brand {
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bitter', serif;
   line-height: 37px;
   color: #4B92DB !important;
 }
@@ -103,12 +112,9 @@ p {
   padding-bottom: 30px;
 }
 
-.main-content #snapshot {
-  width: 100%;
-  margin-right: 30px;
+.main-content .snapshot {
   border: 2px solid #000;
   border-radius: 20px;
-  float: left;
   margin-bottom: 10px;
 }
 
@@ -155,6 +161,7 @@ p {
   margin-bottom: 0px;
   font-size: 16px;
   color: #4B92DB;
+  font-family: 'Bitter', serif;
 }
 
 #dialog-content {
@@ -163,7 +170,6 @@ p {
 }
 
 #dialog-content .nav-link .fa {
-  margin-right: 5px;
   font-weight: 700;
 }
 
