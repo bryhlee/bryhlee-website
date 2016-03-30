@@ -32,9 +32,12 @@ h1 .fa {
   margin-right: 8px;
 }
 
-.h2-subtext {
-  font-weight: 300;
+.p-no-margin {
   margin-bottom: 0px;
+}
+
+#collnavbar a {
+  color: #FFF;
 }
 
 .subtext {
@@ -127,10 +130,6 @@ h1 .fa {
   padding-bottom: 10px;
 }
 
-.main-content-header {
-  margin-bottom: 15px;
-}
-
 .main-content-module {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -163,7 +162,7 @@ h1 .fa {
 #dialog-header > p {
   font-weight: 700;
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size: 18px;
   color: #4B92DB;
   font-family: 'Bitter', serif;
 }
@@ -190,7 +189,7 @@ h1 .fa {
 }
 
 #dialog-content a {
-  font-size: 12px;
+  font-size: 14px;
   color: #000;
 }
 
