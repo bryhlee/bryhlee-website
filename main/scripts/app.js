@@ -13,6 +13,9 @@ app.config(['$routeProvider', '$locationProvider',
       .when('/projects', {
         templateUrl: 'views/projects.html'
       })
+      .when('/contact', {
+        templateUrl: 'views/contact.html'
+      })
     $locationProvider.html5Mode(true);
   }]
 );
@@ -34,4 +37,9 @@ app.controller('dialogController', function($scope) {
 	        window.location.hash = target;
 	    });
 	});
+});
+
+app.controller('projectController', function($scope) {
+  // Prevent image drag
+  $('img').on('dragstart', function(event) { event.preventDefault(); });
 });
