@@ -10,6 +10,11 @@ a, .footer-image {
   background-color: #FFF;
 }
 
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -43,6 +48,39 @@ h1 .fa {
 
 #collnavbar a {
   color: #FFF;
+}
+
+td {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  border: 0 !important;
+}
+
+th {
+  text-align: center;
+  font-family: 'Bitter', serif;
+  border: 0 !important;
+}
+
+thead {
+  background-color: #F8F8F8;
+}
+
+#table-col {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.table {
+  border-style: solid;
+  border-color: #CCCCCC;
+  border-width: 1px 1px 1px 1px;
+}
+
+.table ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
 }
 
 .subtext {
@@ -161,7 +199,7 @@ h1 .fa {
   padding-bottom: 7px;
   border: 1px solid #CCCCCC;
   border-radius: 10px 10px 0px 0px;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 #dialog-header > p {
