@@ -28,6 +28,10 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+blockquote {
+  border-left-color: #FF7F3B !important;
+}
+
 blockquote > p, blockquote > footer {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
@@ -72,6 +76,7 @@ thead {
   border-style: solid;
   border-color: #CCCCCC;
   border-width: 1px 1px 1px 1px;
+  table-layout: fixed;
 }
 
 .table ul {
@@ -221,11 +226,16 @@ thead {
   padding-left: 0px;
   margin: 0px;
   font-weight: 500;
+  margin-top: 10px;
+}
+
+#dialog-content ul > ul {
+  margin-top: 0px;
 }
 
 #dialog-content ul > ul > li {
   font-weight: 300;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 
 #dialog-content a {
@@ -236,5 +246,5 @@ thead {
 #dialog-content a:hover {
   text-decoration: none;
   color: #0000A0;
-  padding-left: 5px;
 }
+
