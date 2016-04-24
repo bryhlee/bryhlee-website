@@ -28,6 +28,14 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+.p-subtext {
+  color: #686868;
+}
+
+.p-no-margin {
+  margin-bottom: 0px;
+}
+
 blockquote {
   border-left-color: #FF7F3B !important;
 }
@@ -44,10 +52,6 @@ blockquote > p, blockquote > footer {
 
 h1 .fa {
   margin-right: 8px;
-}
-
-.p-no-margin {
-  margin-bottom: 0px;
 }
 
 #collnavbar a {
@@ -154,10 +158,15 @@ thead {
   margin-bottom: 20px;
 }
 
+/* Main Content */
 
 .main-content {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.main-content h4 {
+  margin-bottom: 20px;
 }
 
 .main-content .snapshot {
@@ -170,13 +179,26 @@ thead {
   margin-bottom: 4px;
 }
 
+.main-content #experience ul {
+  list-style-type: none;
+  font-family: 'Lato', sans-serif;
+  padding-left: 40px;
+  text-indent: -6px;
+  padding-bottom: 10px;
+}
+
 .main-content-section {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
+.main-content-section table {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .main-content-module {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -184,6 +206,7 @@ thead {
   margin-bottom: 10px;
 }
 
+/* Dialog CSS */
 .sticky {
   position: -webkit-sticky;
   position: sticky;
