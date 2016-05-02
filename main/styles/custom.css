@@ -135,7 +135,6 @@ thead {
   border-bottom: 1px solid #CCCCCC;
 }
 
-
 .navbar li a {
   line-height: 28px;
   padding-top: 10px !important;
@@ -196,7 +195,15 @@ thead {
 
 .main-content-header {
   margin-bottom: 20px;
+  padding-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #F8F8F8;
+  border: 1px solid #CCCCCC;
+  color: #575757;
+  border-radius: 4px;
 }
+
 
 .main-content-section {
   padding-top: 10px;
