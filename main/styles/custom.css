@@ -6,10 +6,6 @@ a, .footer-image {
   transition:.1s;
 }
 
-.container {
-  background-color: #FFF;
-}
-
 .col-centered {
   float: none;
   margin: 0 auto;
@@ -129,7 +125,7 @@ thead {
 .navbar {
   font-family: 'Lato', sans-serif;
   text-align: center;
-  background-color: #FFF !important /* #f2f2f2 */;
+  background-color: #F8F8F8;
   padding-top: 0px;
   padding-bottom: 0px;
   border-bottom: 1px solid #CCCCCC;
@@ -141,10 +137,13 @@ thead {
   padding-bottom: 10px !important;
   padding-left: 15px;
   padding-right: 15px;
+  
 }
 
 .navbar li .active {
-  background-color: #F5F5F5;
+  background-color: #F0F0F0;
+  /*border-left: 1px solid #CCCCCC; 
+  border-right: 1px solid #CCCCCC;*/
 }
 
 .navbar-brand {
@@ -231,11 +230,11 @@ thead {
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 20px;
+  top: 15px;
 }
 
 #dialog {
-  border-radius: 7px;
+  border-radius: 5px;
   background-color: #F8F8F8;
   margin-bottom: 0px;
 }
@@ -244,7 +243,7 @@ thead {
   padding-top: 7px;
   padding-bottom: 7px;
   border: 1px solid #CCCCCC;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
   background-color: #FFFFFF;
 }
 
