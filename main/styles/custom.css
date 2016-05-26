@@ -141,7 +141,7 @@ thead {
 }
 
 .navbar li .active {
-  background-color: #F0F0F0;
+  background-color: #EDF5F2;
   /*border-left: 1px solid #CCCCCC; 
   border-right: 1px solid #CCCCCC;*/
 }
@@ -199,7 +199,7 @@ thead {
   padding-bottom: 8px;
   border-bottom: 4px solid #575757;
   color: #575757;
-  background-color: #F8F8F8;
+  background-color: #EDF5F2;
   border-radius: 4px 4px 0px 0px;
   
   /*background-color: #F8F8F8;
