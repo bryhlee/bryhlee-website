@@ -125,7 +125,7 @@ thead {
 .navbar {
   font-family: 'Lato', sans-serif;
   text-align: center;
-  background-color: #F8F8F8;
+  background-color: #F2F3F5;
   padding-top: 0px;
   padding-bottom: 0px;
   border-bottom: 1px solid #CCCCCC;
@@ -141,7 +141,7 @@ thead {
 }
 
 .navbar li .active {
-  background-color: #EDF5F2;
+  background-color: #FAFAFA;
   /*border-left: 1px solid #CCCCCC; 
   border-right: 1px solid #CCCCCC;*/
 }
@@ -199,7 +199,7 @@ thead {
   padding-bottom: 8px;
   border-bottom: 4px solid #575757;
   color: #575757;
-  background-color: #EDF5F2;
+  background-color: #F2F3F5;
   border-radius: 4px 4px 0px 0px;
   
   /*background-color: #F8F8F8;
@@ -240,7 +240,7 @@ thead {
 
 #dialog {
   border-radius: 5px;
-  background-color: #F8F8F8;
+  background-color: #FFFFFF;
   margin-bottom: 0px;
   border: 1px solid #CCCCCC;
 }
@@ -250,7 +250,7 @@ thead {
   padding-bottom: 7px;
   border-bottom: 1px solid #CCCCCC;
   border-radius: 5px 5px 0px 0px;
-  background-color: #FFFFFF;
+  background-color: #F2F3F5;
 }
 
 #dialog-header > p {
