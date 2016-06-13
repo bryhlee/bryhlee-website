@@ -10,7 +10,7 @@
   </div>
 </div>
 <!-- Main Header -->
-<nav class="navbar navbar-light navbar-full ">
+<nav class="navbar navbar-full ">
   <div class="container">
     <a class="navbar-brand" href="#">Bryson Lee</a>
     <button class="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse" data-target="#collnavbar">
@@ -36,23 +36,18 @@
 <!-- Main content -->
 <div class="main-content container">
   <div class="row">
-    <div class="col-xs-12">
+    <div class="col-sm-12 col-lg-10 main-content-container">
       <h1 class="page-header"><i class="fa fa-caret-right"></i>About</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-12 col-lg-10">
       <div class="row main-content-section">
         <div class="col-xs-12 col-sm-4">
           <img class="snapshot center-block img-fluid" src="../media/profile.jpg"></img>
         </div>
         <div class="col-xs-12 col-sm-8 text-xs-center text-sm-left">
           <h2>Bryson Lee</h2>
-          <p class="p-subtext p-no-margin">Production and Software Engineeering</p>
-          
-          <p class="p-subtext p-no-margin">Santa Clara University</p>
-          <p class="p-subtext p-no-margin">B.S. Computer Science and Engineering</p>
-          <p class="p-subtext p-no-margin">Santa Clara, CA</p>
+          <p class="p-subtext p-no-margin"><i class="fa fa-code fa-subtext" aria-hidden="true"></i>Production and Software Engineeering</p>
+          <p class="p-subtext p-no-margin"><i class="fa fa-university fa-subtext" aria-hidden="true"></i>Santa Clara University</p>
+          <p class="p-subtext p-no-margin"><i class="fa fa-bookmark fa-subtext" aria-hidden="true"></i>B.S. Computer Science and Engineering</p>
+          <p class="p-subtext p-no-margin"><i class="fa fa-map-marker fa-subtext" aria-hidden="true"></i>Santa Clara, CA</p>
         </div>
       </div>
       <div id="overview" class="row main-content-section">
@@ -153,7 +148,7 @@
           <h3 class="main-content-header">Experience</h3>
           <div class="left-indent">
             <h6>Student Software Researcher</h6>
-            <p class="p-subtext">Frugal Innovation Labl<br>June 2014 - Present</p>
+            <p class="p-subtext">Frugal Innovation Lab<br>June 2014 - Present</p>
             <ul>
               <li><i class="fa fa-caret-right"></i>Drafting Research paper – “An investigation of current industry standards in modern mHealth product design specifications” – sponsored by the lab</li>
               <li><i class="fa fa-caret-right"></i>Analyzing and documenting framework usage in mHealth mobile, web, and native applications</li>
@@ -185,43 +180,42 @@
           </div>
         </div>
       </div>
+      <div ng-include="'../partials/footer.html'"></div>
     </div>
+    
+  
+    
   
     <!-- Dialog -->
-    <div id="dialog" class="sticky col-lg-2 hidden-md-down" ng-controller="dialogController">
-      <div class="row">
-        <div id="dialog-header" class="col-xs-12">
+    <div class="sticky col-lg-2 hidden-md-down" ng-controller="dialogController">
+      <div id="dialog">
+        <div id="dialog-header">
           <p>About</p>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="dialog-content">
-            <ul>
-              <li>
-                <a class="nav-link" href="#overview"><i class="fa fa-angle-right"></i>Overview</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#intro"><i class="fa fa-angle-right"></i>Biography</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#skills"><i class="fa fa-angle-right"></i>Skills</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#experience"><i class="fa fa-angle-right"></i>Experience</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#research"><i class="fa fa-angle-right"></i>Research</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#resume"><i class="fa fa-angle-right"></i>Resume</a>
-              </li>
-            </ul>
-          </div>
+        <div id="dialog-content">
+          <ul>
+            <li>
+              <a class="nav-link" href="#overview"><i class="fa fa-angle-right"></i>Overview</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#intro"><i class="fa fa-angle-right"></i>Biography</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#skills"><i class="fa fa-angle-right"></i>Skills</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#experience"><i class="fa fa-angle-right"></i>Experience</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#research"><i class="fa fa-angle-right"></i>Research</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#resume"><i class="fa fa-angle-right"></i>Resume</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div ng-include="'../partials/footer.html'"></div>

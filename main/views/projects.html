@@ -36,12 +36,8 @@
 <!-- Main content -->
 <div class="main-content container" ng-controller="projectController">
   <div class="row">
-    <div class="col-xs-12">
+    <div class="col-sm-12 col-lg-10 main-content-container">
       <h1 class="page-header"><i class="fa fa-caret-right"></i>Projects</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-12 col-lg-10">
       <div id="overview" class="row main-content-section">
         <div class="col-xs-12">
           <h3 class="main-content-header">Introduction</h3>
@@ -107,48 +103,29 @@
           </div>
         </div>
       </div>
+      <div ng-include="'../partials/footer.html'"></div>
     </div>
 
 
-    <div id="dialog" class="sticky col-lg-2 hidden-md-down" ng-controller="dialogController">
-      <div class="row">
-        <div id="dialog-header" class="col-xs-12">
+    <div class="sticky col-lg-2 hidden-md-down" ng-controller="dialogController">
+      <div id="dialog">
+        <div id="dialog-header">
           <p>Projects</p>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="dialog-content">
-            <ul>
-              <li>
-                <a class="nav-link" href="#overview"><i class="fa fa-angle-right"></i>Introduction</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#tools"><i class="fa fa-angle-right"></i>Tools</a>
-              </li>
-              <ul>
-                <li>
-                  <a class="nav-link" href="#checksum">.data Checksum Analaytics Tool</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="#dohticket">Ticket Support Manager</a>
-                </li>
-              </ul>
-              <li>
-                <a class="nav-link" href="#applications"><i class="fa fa-angle-right"></i>Applications</a>
-              </li>
-              <ul>
-                <li>
-                  <a class="nav-link" href="#hoana-app">Medical Bed Monitoring Application</a>
-                </li>
-              </ul>
-            </ul>
-          </div>
+        <div id="dialog-content">
+          <ul>
+            <li>
+              <a class="nav-link" href="#overview"><i class="fa fa-angle-right"></i>Introduction</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#tools"><i class="fa fa-angle-right"></i>Tools</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#applications"><i class="fa fa-angle-right"></i>Applications</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-
-<div ng-include="'../partials/footer.html'"></div>
